@@ -1,0 +1,142 @@
+
+
+Operators:
+operators are special symbols that perform specific operations
+ 
+1.Arithmetic operators:
+These operators are used to perform mathematical operations
+such as addition, subtraction, multiplication,and division.
++ (addition)
+- (subtraction)
+* (multiplication)
+/ (division)-Que
+% (modulus or remainder)
+
+2.Assignment operators:
+These operators are used to assign values to variables. 
+= (assignment)
++= (add and assign)
+-= (subtract and assign)
+*= (multiply and assign)
+/= (divide and assign)
+%= (modulus and assign)
+
+3.Comparison operators:
+These operators are used to compare two value
+and return a boolean value (true or false). 
+== (equal to)
+!= (not equal to)
+> (greater than)
+< (less than)
+>= (greater than or equal to)
+<= (less than or equal to)
+
+4.Logical operators:
+These operators are used to combine two or more boolean expressions
+and return a boolean value.
+&& (logical and) 
+1 T    0 F
+and 1*1 ---1 T
+    0*1 ---0  F
+	1*0----0 F
+	0*0----0 F
+(5==5)&&(5<5)---false
+
+|| (logical or)
+addition
+1+1---1T
+0+1---1T
+1+0---1T
+0+0---0F
+(5==5)||(5<5)---True
+! (logical not or negation)
+1---0   T F
+
+0---1   F  T
+boolean flag=false;
+!flag
+5. unary operator
+Increment operator (++) 
+Decrement operator (--)
+
+
+For Loop:
+---------
+fixed number of time 
+
+syntax:
+--------
+for(initialization;condition;incre/decre){
+//body of the statement
+}
+for(int i=0;i<=5;i++){
+syso(i)
+}
+
+While
+------
+while(condition){
+}
+
+example:
+536
+sum of the number
+ int num=536;
+ split one by one 
+ %
+ 
+factorial of 5
+ ---------------
+ 1.decalre and intialization
+ int num=5;
+ int fact=24;
+ 2.1*2*3*4*5   5!=120
+ for()
+ 3.f;1*1   1*2    2*3      6*4   24*5
+ }act=fact*i
+ 
+ 
+ if(condtion){
+ syso()
+ }
+ if(mark>35){
+ }
+ if(){
+ }
+ else{
+ }
+ if(){
+ else if(){
+ }
+ }
+ 
+switch(Mon){
+ case:1
+ sys("Mon");
+ break;
+ case:2
+ sys("Tue");
+ break;
+ case:3
+ sys("wed");
+ break;
+ }
+ 
+
+The return statement can be used in two ways:
+----------------------------------------------
+
+Returning a value: When a method has a return type
+(other than void), the return statement is used to return a value of that type. 
+
+
+
+Exiting a method: When a method does not have a return type (i.e., it returns void), the return statement is used to exit the method.
+public void printNumbers(int n) {
+    for (int i = 1; i <= n; i++) {
+        System.out.println(i);
+        if (i == 5) {
+            return;
+        }
+    }
+}

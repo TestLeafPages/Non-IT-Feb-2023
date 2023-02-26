@@ -1,0 +1,164 @@
+Java:
+Object oriented
+One of most used language lot of free libraries
+Excel:Apache POI
+Test execution:TestNg
+
+Selenium:
+Automation tool,libraries,framework
+Can automate only browser based app
+Any Languages:Java
+
+JDK----Java Development Kit
+provides tools and  libraries need for developing java app
+It include JRE 
+
+JRE---Java RunTime Environment
+provides necessary run time components of running java application
+JRE include JVM
+
+JVM--Java Virtual machine
+Responsible for interpreting and execute java code
+
+Project:
+LearnSelenium
+step 1:File----new----Project
+Step 2:Project window  ----choose Maven project----next
+Step 3:from new window---check the box create simple project---next
+Step 4:GroupID: org.testleaf
+       Artifact id: LearnSelenium---Finish
+	 
+Package:
+src/main/java---right click----new ---package
+package satrt with lower case week1.day1
+
+Class:
+------
+A class is a blueprint or a template for creating objects.
+
+Car:
+break
+wheel
+seats
+engine
+doors
+How to create the class:
+week1.day1---- right click--->new--->class
+Class name upper case ie Car  ---->finish
+or LearnCar
+
+class syntax:
+access modifier keyword classname{
+
+//public class Car
+
+}
+Main method:
+java execution begin from main method
+
+main ctrl+space
+
+public static void main(String[] arg){
+
+}
+
+print:
+
+
+
+Primitive Data type:
+
+Car:
+Data
+break
+wheel
+seats
+
+Primitive Data type:
+
+Car:
+Data
+break
+wheel
+seats
+
+
+Primitive data type:
+pre defined
+boolean -yes/no true false
+
+whole number
+
+byte-8 bit
+
+short -16bit
+
+
+int 32 bit 1-9
+
+long 64 bit More  9+ l
+
+decimal digit
+
+float   32 bit f
+
+double  64  bit d
+char 'P'
+
+'P''r''i'
+
+String----Non primi
+"Testleaf"
+
+
+variable
+---------
+noOfWheel
+
+data information 
+
+add
+a=10
+b=20
+sum=a+b
+Variable:
+data or information regarding the class
+lowerUppercase
+global:public 
+local variable
+
+syntax:
+-------
+datatype var=assign value;
+
+Method:
+-------
+Action/ behaviour of the class 
+
+syntax:
+access modifier return type methodName(){
+
+}
+example:
+public void applyBreak(){
+}
+
+return type:
+void-null;
+boolean
+int
+char
+String
+double
+access modifier
+public---Any one can access 
+private---Inside same class or same method
+protected
+default----same package
+
+Object:
+object is an instance of class.
+To create an object in java
+syntax:
+-------
+Classname obj=new classname();
