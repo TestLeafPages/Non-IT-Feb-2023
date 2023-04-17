@@ -1,0 +1,81 @@
+Steps to Integrate Data with POM:
+----------------------------------
+PreCondition: Change normal methods into parameterized methods to receive inputs
+1. Create the excel sheet under testData folder in the project
+2. Copy ReadExcel.java and paste it under utils package
+3. Copy excelFileName global variable and @DataProvider code from ProjectSpecificMethods and paste in ProjectSpecificMethods
+        - Correct the ReadExcel import statement
+4. Copy and paste setData() from the testcase
+5. Integrate DataProvider with the test case with right number of arguments
+6. Pass the variables to the respective methods
+
+ExtentReport:
+-------------
+To generate HTML-based reports that include detailed information
+about test results, including logs, screenshots, and performance metrics.
+
+It provides a wide range of features, including:
+--->Good Looking graphical representation of execution
+--->Test categorization and Author based report
+--->Detailed test result reporting with screenshots and logs
+--->Real-time dashboard reporting
+--->Integration with popular test automation frameworks
+--->Support for parallel test execution
+--->Historical reporting and trend analysis
+
+aventstack---3.1.5--->open source
+
+<dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>3.1.5</version>
+        </dependency>
+
+ Classes used in ExtentReport:
+1.ExtentHtmlReporter
+Creating object for ExtentHtmlReporter to create a physical html file
+
+If you want to maintain the history of the execution
+
+2.ExtentReporters
+Creating an object for ExtentReporters class to create a new report
+ To capture the automation data and attach  to the physical file
+3.ExtentTest
+Creating a new Test inside the report for each test case and capture the status
+4.MediaEntityBuilder
+To attach the screenshot to the report
+
+
+Steps to integrate ExtentReport with POM:
+-----------------------------------------
+1. Create startReport() method in BaseClass with @BeforeSuite annotation
+	- Add step1 to step3 ExtentReport code
+	- Declare ExtentReports as global variable with static access modifier
+	
+2. Create testDetails() in BaseClass with @BeforeClass as annotation
+	- Add testcase details code into the method
+	- Declare the ExtentTest as global variable with static access modifier
+	
+3. Declare global variables testName, testDescription, testCategory, testAuthor and replace the hardcoded value with these variables	
+
+4. Create stopReport() in ProjectSpecificMethods with @AfterSuite
+	- add extent.flush()
+	
+5. Create reportStep() in ProjectSpecificMethods with 2 arguments (stepInfo, status)	
+	- Conditional statement to call appropriate method for pass and fail status
+	
+6. Call reportStep() from page methods
+		- from try block, call with pass status
+		- from catch block call with fail status
+		
+7. Create takeSnap() in ProjectSpecificMethods with necessary code to take snapshot with filename appending with Random number
+		- add return statement to give random number as output 
+		
+8. Call takeSnap() from reportStep() to attach the image to the steps
+
+9. @DataProvider----fetData
+      @BeforeMethod
+        add node
+node-->subset
+test data
+test1 node 1

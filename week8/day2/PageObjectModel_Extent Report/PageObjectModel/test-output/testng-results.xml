@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14416" started-at="2023-04-16T18:52:10 IST" finished-at="2023-04-16T18:52:24 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14416" started-at="2023-04-16T18:52:10 IST" finished-at="2023-04-16T18:52:24 IST">
+      <class name="testcase.TC_001_LoginTest">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:testcase.TC_001_LoginTest@782663d3]" name="startReport" is-config="true" duration-ms="548" started-at="2023-04-16T18:52:09 IST" finished-at="2023-04-16T18:52:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcase.TC_001_LoginTest@782663d3]" name="setup" is-config="true" duration-ms="0" started-at="2023-04-16T18:52:10 IST" finished-at="2023-04-16T18:52:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testDetails()[pri:0, instance:testcase.TC_001_LoginTest@782663d3]" name="testDetails" is-config="true" duration-ms="10" started-at="2023-04-16T18:52:10 IST" finished-at="2023-04-16T18:52:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testcase.TC_001_LoginTest@782663d3]" name="launchBrowser" is-config="true" duration-ms="6408" started-at="2023-04-16T18:52:11 IST" finished-at="2023-04-16T18:52:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="runLogin(java.lang.String,java.lang.String)[pri:0, instance:testcase.TC_001_LoginTest@782663d3]" name="runLogin" duration-ms="1350" started-at="2023-04-16T18:52:17 IST" data-provider="getData" finished-at="2023-04-16T18:52:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcase.TC_001_LoginTest@782663d3]" name="tearDown" is-config="true" duration-ms="242" started-at="2023-04-16T18:52:19 IST" finished-at="2023-04-16T18:52:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testcase.TC_001_LoginTest@782663d3]" name="launchBrowser" is-config="true" duration-ms="3580" started-at="2023-04-16T18:52:19 IST" finished-at="2023-04-16T18:52:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="runLogin(java.lang.String,java.lang.String)[pri:0, instance:testcase.TC_001_LoginTest@782663d3]" name="runLogin" duration-ms="1378" started-at="2023-04-16T18:52:23 IST" data-provider="getData" finished-at="2023-04-16T18:52:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[democsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcase.TC_001_LoginTest@782663d3]" name="tearDown" is-config="true" duration-ms="180" started-at="2023-04-16T18:52:24 IST" finished-at="2023-04-16T18:52:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:testcase.TC_001_LoginTest@782663d3]" name="stopReport" is-config="true" duration-ms="473" started-at="2023-04-16T18:52:24 IST" finished-at="2023-04-16T18:52:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- testcase.TC_001_LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
